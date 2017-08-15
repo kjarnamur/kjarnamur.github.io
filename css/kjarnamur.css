@@ -8,12 +8,17 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+.navbar-default {
+  background-color: #f5f5f5;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 100px;
   background-color: #f5f5f5;
 }
 
@@ -39,11 +44,12 @@ code {
 }
 
 .navbar-brand {
-    vertical-align: middle;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url('/images/kjarnamur-logo-05.png');
-    background-position: 0 top;
-    width: 127px;
+  margin-right: 8px;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('/images/kjarnamur-logo-05.png');
+  background-position: 0 top;
+  width: 127px;
 }
